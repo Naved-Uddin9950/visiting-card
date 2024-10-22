@@ -20,6 +20,7 @@ const router = createBrowserRouter(
     <>
       <Route path='/' element={<App />} errorElement={<ErrorPage />}>
         <Route path='' element={<Home />} />
+        <Route path='govind-chacha' element={<Home />} />
         <Route path='coming-soon' element={<ComingSoon />} />
       </Route>
     </>
